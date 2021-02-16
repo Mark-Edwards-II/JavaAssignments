@@ -29,8 +29,15 @@ public class JATest {
         // 
         // ============================================================
         // Puzzles
+        // int[] arr1 = {3,5,1,2,7,9,8,13,25,32};
+        ArrayList<String> arr2 = new ArrayList<String>();
+        arr2.add("Nancy");
+        arr2.add("Jinichi");
+        arr2.add("Fujibayashi");
+        arr2.add("Momochi");
+        arr2.add("Ishikawa");
         Puzzling puzzles = new Puzzling();
-        int[] arr1 = {3,5,1,2,7,9,8,13,25,32};
-        puzzles.taskOne(arr1);
+        // puzzles.taskOne(arr1);
+        puzzles.ShuffleArrReturn5(arr2);
     }
 }

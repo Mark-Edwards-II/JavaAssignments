@@ -19,5 +19,13 @@ public class Puzzling {
         System.out.println(greaterThan10);
         return greaterThan10;
     }
-    
+    public ArrayList<String> ShuffleArrReturn5(ArrayList<String> arr) {
+        ArrayList<String> arr2 = new ArrayList<String>();
+        Collections.shuffle(arr);
+        for(int i = 0; i < arr.size(); i++) {
+            System.out.println(arr.get(i));
+            if(arr.get(i).length() > 5) arr2.add(arr.get(i));
+        }
+        return arr2;
+    }
 }
